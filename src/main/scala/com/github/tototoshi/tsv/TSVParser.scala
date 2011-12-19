@@ -2,9 +2,6 @@ package com.github.tototoshi.tsv
 
 import scala.util.parsing.combinator._
 
-import scalaz._
-import Scalaz._
-
 object TSVParser extends RegexParsers {
 
   override def skipWhitespace = false
